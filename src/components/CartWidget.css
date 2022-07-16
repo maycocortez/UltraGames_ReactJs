@@ -1,0 +1,12 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+    --grisclaro: #DFE9F3;
+  }
+.icono{
+    font-size: 3rem;
+    color: var(--blanco)
+}
