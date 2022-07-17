@@ -1,7 +1,9 @@
 import './ItemListContainer.css'
 
-function ItemListContainer (){
-    
+const ItemListContainer = (props) => {
+    return (
+        <p className="parrafoEjemplo">{props.textoSalida}</p>
+    )
 }
 
 export default ItemListContainer;

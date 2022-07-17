@@ -6,17 +6,12 @@ import ItemListContainer from './components/ItemListContainer';
 
 
 function App() {
+  const greetingsMsj = 'Cuerpo de la página';
   return ( 
     <div className = "App">
       <Titulo />
       <NavBar />
-      <ItemListContainer />
-      <body>
-             Cuerpo de la página
-          </body>
-          <footer>
-            Ultra Games - Tienda de juegos - 2022 - "Todos los derechos reservados"
-          </footer>
+      <ItemListContainer textoSalida={greetingsMsj} />
     </div>);
 }
 
