@@ -6,12 +6,12 @@ import ItemListContainer from './components/ItemListContainer';
 
 
 function App() {
-  const greetingsMsj = 'Cuerpo de la página';
+  const greetingsMsj = ["Hola", "Chau", "Buenas Noches", "Adios"];
   return ( 
     <div className = "App">
       <Titulo />
       <NavBar />
-      <ItemListContainer textoSalida={greetingsMsj} />
+      <ItemListContainer yoSoyUnaProps={greetingsMsj}/>
     </div>);
 }
 

@@ -2,7 +2,7 @@ import './NavBar.css';
 import './CartWidget'
 import CartWidget from './CartWidget';
 
-function NavBar() {
+const NavBar = ()=> {
     return ( 
       <div className = "NavBar">
         <div className = "nav-bg">

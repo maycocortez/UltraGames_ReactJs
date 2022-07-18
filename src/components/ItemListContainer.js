@@ -2,7 +2,15 @@ import './ItemListContainer.css'
 
 const ItemListContainer = (props) => {
     return (
-        <p className="parrafoEjemplo">{props.textoSalida}</p>
+        <>
+        {props.yoSoyUnaProps.map(item => {
+            return (
+                <div>
+                    {item}
+                </div>
+            )
+        })}
+        </>
     )
 }
 
