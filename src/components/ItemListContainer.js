@@ -1,17 +1,11 @@
-import './ItemListContainer.css'
+import './styles/ItemListContainer.css'
+import React from 'react';
+import Title from './Title';
 
-const ItemListContainer = (props) => {
+export const ItemListContainer = ({texto}) => {
     return (
-        <>
-        {props.yoSoyUnaProps.map(item => {
-            return (
-                <div>
-                    {item}
-                </div>
-            )
-        })}
-        </>
-    )
-}
+        <Title greeting={texto} />
+    );
+} 
 
 export default ItemListContainer;

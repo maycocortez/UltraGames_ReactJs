@@ -1,17 +1,14 @@
 /*import logo from './logo.svg';*/
 import './App.css';
 import NavBar from "./components/NavBar"
-import Titulo from './components/Titulo';
 import ItemListContainer from './components/ItemListContainer';
 
 
 function App() {
-  const greetingsMsj = ["Hola", "Chau", "Buenas Noches", "Adios"];
-  return ( 
+    return ( 
     <div className = "App">
-      <Titulo />
+      <ItemListContainer texto = "Ultra Games - Tienda de juegos" />
       <NavBar />
-      <ItemListContainer yoSoyUnaProps={greetingsMsj}/>
     </div>);
 }
 

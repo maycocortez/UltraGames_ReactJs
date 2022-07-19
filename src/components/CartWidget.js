@@ -1,5 +1,5 @@
 import { FaCartPlus } from "react-icons/fa";
-import './CartWidget.css'
+import './styles/CartWidget.css'
 
 
 
