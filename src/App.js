@@ -7,8 +7,9 @@ import ItemListContainer from './components/ItemListContainer';
 function App() {
     return ( 
     <div className = "App">
+       <NavBar />
       <ItemListContainer texto = "Ultra Games - Tienda de juegos" />
-      <NavBar />
+     
     </div>);
 }
 
