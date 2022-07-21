@@ -13,11 +13,13 @@
     width: 300px;
     text-decoration: none;
     color: var(--secundario);
+    background-color: var(--blanco)
 }
 
 .juego img {
     width: 100%;
     height: 100%;
+    
     
 }
 
@@ -31,6 +33,7 @@
     -webkit-box-shadow: 22px 21px 24px 8px rgba(102,102,102,0.59);
     -moz-box-shadow: 22px 21px 24px 8px rgba(102,102,102,0.59);
     box-shadow: 22px 21px 24px 8px rgba(102,102,102,0.59);
+    background-color: var(--blanco);
     padding: 10px;
     margin: 60px;
 }

@@ -1,9 +1,28 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+    --grisclaro: #DFE9F3;
+    --fondoCaja: #ecf3f3;
+
+  }
+
 .box{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    align-items: auto;
-    align-content: start
+    align-items: center;
+    align-content: start;
+    border: black solid 2px ;
+    border-radius: 20px;
+    margin: 30px 200px 30px 200px;
+    background-color:var(--fondoCaja);
+    -webkit-box-shadow: 22px 21px 24px 8px rgba(102,102,102,0.59);
+    -moz-box-shadow: 22px 21px 24px 8px rgba(102,102,102,0.59);
+    box-shadow: 22px 21px 24px 8px rgba(102,102,102,0.59);
 
-}
+    }
+    
