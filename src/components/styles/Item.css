@@ -8,3 +8,9 @@
     height: 100%;
     object-fit: cover;
 }
+.box{
+    width: auto;
+    display: flex;
+    flex: row;
+    justify-content: center;
+}

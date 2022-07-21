@@ -3,52 +3,59 @@ import React, {useState, useEffect} from 'react';
 import Title from './Title';
 import { ItemCount } from './ItemCount';
 import ItemList from './ItemList';
+import juego01 from "./images/juego1.jpg";
+import juego02 from "./images/juego2.jpg";
+import juego03 from "./images/juego3.jpg";
+import juego04 from "./images/juego4.jpg";
+import juego05 from "./images/juego5.jpg";
+import juego06 from "./images/juego6.jpg";
+import juego07 from "./images/juego7.jpg";
+import juego08 from "./images/juego8.jpg";
 
 
 
 const juegos = [
     {
         id:1,
-        image: "/src/components/images/juego1.jpg",
+        image: juego01,
         title: "Resident Evil 7 - Biohazard",
     },
     {
         id:2,
-        image: "C:/Users/diego/Desktop/34680/UltraGames-Tienda-Deorazio/src/components/images/juego2.jpg",
+        image: juego02,
         title: "Doom Eternal",
     },
     {
         id:3,
-        image: "C:/Users/diego/Desktop/34680/UltraGames-Tienda-Deorazio/src/components/images/juego3.jpg",
+        image: juego03,
         title: "Age Of Empires IV",
     },
     {
         id:4,
-        image: "C:/Users/diego/Desktop/34680/UltraGames-Tienda-Deorazio/src/components/images/juego4.jpg",
+        image: juego04,
         title: "Assasin creed - Valhalla",
     },
     {
         id:5,
-        image: "C:/Users/diego/Desktop/34680/UltraGames-Tienda-Deorazio/src/components/images/juego5.jpg",
+        image: juego05,
         title: "Age of Mithology - Extended Version",
     },
     {
         id:6,
-        image: "C:/Users/diego/Desktop/34680/UltraGames-Tienda-Deorazio/src/components/images/juego6.jpg",
+        image: juego06,
         title: "The Sims 4",
     },
     {
         id:7,
-        image: "C:/Users/diego/Desktop/34680/UltraGames-Tienda-Deorazio/src/components/images/juego7.jpg",
+        image: juego07,
         title: "Sonic Generations",
     },
     {
         id:8,
-        image: "C:/Users/diego/Desktop/34680/UltraGames-Tienda-Deorazio/src/components/images/juego8.jpg",
+        image: juego08,
         title: "God of War"
     }
 ];
-console.log(juegos[0].image)
 
 export const ItemListContainer = ({texto}) => {
     const [data, setData] = useState([]);
