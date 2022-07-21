@@ -1,16 +1,41 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+    --grisclaro: #DFE9F3;
+  }
+
 .juego {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 300px;
+    text-decoration: none;
+    color: var(--secundario);
 }
 
 .juego img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    
 }
-.box{
-    width: auto;
+
+.caja{
     display: flex;
-    flex: row;
-    justify-content: center;
+    width: 100%;
+}
+.juegoMain{
+    border: var(--gris) solid 5px;
+    border-radius: 10px;
+    -webkit-box-shadow: 22px 21px 24px 8px rgba(102,102,102,0.59);
+    -moz-box-shadow: 22px 21px 24px 8px rgba(102,102,102,0.59);
+    box-shadow: 22px 21px 24px 8px rgba(102,102,102,0.59);
+    padding: 10px;
+    margin: 60px;
+}
+.textJuego{
+    padding-top: 10px;
+    font-size: 25px ;
+    
 }

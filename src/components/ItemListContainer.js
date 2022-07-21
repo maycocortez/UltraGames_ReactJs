@@ -77,7 +77,9 @@ export const ItemListContainer = ({texto}) => {
         <>
             <Title greeting={texto} />
             <ItemCount initial={1} stock={10} onAdd={onAdd} />
+            <div className='box'>
             <ItemList data={data}/>
+            </div>
         </>
     );
 } 
