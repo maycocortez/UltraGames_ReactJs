@@ -13,8 +13,6 @@ export const ItemDetail = ({data}) => {
                     <p>- <strong>Género: </strong>{data.genero}</p>
                     <p>- <strong>Desarollador: </strong>{data.desarrollador}</p>
                     <p>- <strong>lanzamiento: </strong>{data.lanzamiento}</p>
-               
-                    
                 </div>
             </div>
         </div>
