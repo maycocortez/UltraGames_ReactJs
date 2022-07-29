@@ -11,22 +11,36 @@
     display: flex;
     align-items: center;
   }
-  /*Títulos*/
 
+  .barraNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
   
+   }
+
   .navegacionPrincipal {
     display: flex;
     flex-direction: row;
+    align-items:center;
+    border-radius: 2rem;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+
   }
-  
+
   .navegacionPrincipal a {
-    display: block;
+    display: flex;
     text-align: center;
     color: var(--blanco);
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 700;
     padding: 1rem;
+    margin: 0 5rem 0 5rem;
     border-radius: 1px var(--secundario);
   }
   
@@ -35,26 +49,32 @@
     color: var(--oscuro);
   }
   @media (min-width: 768px) {
+    .navbar{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
     .navegacionPrincipal {
+      width: 90%;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
         background-color: var(--gris);
+        box-shadow: 0 3px 6px -6px black;
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
        
     }
-  
+
     .boton {
         width: auto;
     }
   }
-  .NavBar {
-    text-align: center;
-  }
+ 
   
   
-  .NavBar-logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
+
   
   @media (prefers-reduced-motion: no-preference) {
     .NavBar-logo {
@@ -62,20 +82,6 @@
     }
   }
   
-  .NavBar-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .NavBar-link {
-    color: #61dafb;
-  }
   
   @keyframes NavBar-logo-spin {
     from {

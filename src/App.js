@@ -1,16 +1,24 @@
-/*import logo from './logo.svg';*/
 import './App.css';
-import NavBar from "./components/NavBar"
-import ItemListContainer from './components/ItemListContainer';
-import ItemDetailContainer from './components/ItemDetailContainer';
+import NavBar from "./components/NavBar/NavBar"
+import ItemListContainer from './components/Items/ItemListContainer/ItemListContainer'
+import ItemDetailContainer from './components/Items/ItemDetailContainer/ItemDetailContainer';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Cart from './components/Cart/Cart';
 
 
 function App() {
     return ( 
     <div className = "App">
-       <NavBar />
-       <ItemListContainer texto = "Ultra Games - Tienda de juegos" />
-       <ItemDetailContainer />
+        <BrowserRouter>
+            <NavBar />
+            <Routes>
+                <Route path='/' element={<ItemListContainer />} />
+                <Route path='/juegos/:juegosId' element={<ItemListContainer  />} />
+                <Route path='/cart' element={<Cart />} />
+                <Route path='/detalle/:detalleId' element={<ItemDetailContainer />} />
+            </Routes>
+      </BrowserRouter>
+
 
     </div>);
 }

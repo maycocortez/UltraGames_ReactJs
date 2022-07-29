@@ -1,11 +1,10 @@
-import { data } from "autoprefixer";
 import React from "react";
-import './styles/ItemDetail.css'
+import './ItemDetail.css'
 
 export const ItemDetail = ({data}) => {
     return (
         <div className="container">
-            <div className="detail">
+            <div className="detail box2">
                 <img className="detail_image" src={data.image} alt="" />
                 <div className="content">
                     <h1>{data.title}</h1>

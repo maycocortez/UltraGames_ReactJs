@@ -1,4 +1,4 @@
-import './styles/Title.css';
+import './Title.css';
 import React from 'react';
 
 export const Title = ({greeting}) => {

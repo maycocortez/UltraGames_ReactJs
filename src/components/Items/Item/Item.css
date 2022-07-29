@@ -42,3 +42,24 @@
     font-size: 25px ;
     
 }
+
+.botonDetalle{
+
+    border-radius: 15px;
+    border: solid 4px var(--gris);
+    width: 7rem;
+    background-color: var(--gris);
+    color: var(--blanco);
+
+    padding: 3px;
+    margin: 3px;
+    -webkit-box-shadow: 15px 21px 20px -6px rgba(0,0,0,0.51);
+    -moz-box-shadow: 15px 21px 20px -6px rgba(0,0,0,0.51);
+    box-shadow: 15px 21px 20px -6px rgba(0,0,0,0.51);
+
+
+}
+
+.imgLogo {
+    width: 80px;
+}

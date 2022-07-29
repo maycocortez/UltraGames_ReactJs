@@ -1,13 +1,17 @@
-import "./styles/Item.css"
+import "./Item.css"
 import React from "react";
+import {Link} from 'react-router-dom'
 
 const Item = ({info}) => {
     return (
         <div className="juegoMain">
-             <a href="_blank" className="juego">
+            <div className="juego">
                 <img src={info.image} alt=""/>
                 <p className="textJuego">{info.title}</p>
-            </a>
+            <Link to={`/detalle/${info.id}`}>
+                <button className="botonDetalle"> --Ver detalle </button>
+            </Link>
+            </div>
         </div>
     )
 }
