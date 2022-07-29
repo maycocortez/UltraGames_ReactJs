@@ -9,7 +9,7 @@ const Item = ({info}) => {
                 <img src={info.image} alt=""/>
                 <p className="textJuego">{info.title}</p>
             <Link to={`/detalle/${info.id}`}>
-                <button className="botonDetalle"> --Ver detalle </button>
+                <button className="botonDetalle"> Ver detalle </button>
             </Link>
             </div>
         </div>

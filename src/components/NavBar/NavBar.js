@@ -1,13 +1,13 @@
 import './NavBar.css';
 import CartWidget from '../Cart/CartWidget';
 import { NavLink } from 'react-router-dom';
-import img from '../images/icon-page.png'
+
 
 const NavBar = ()=> {
     return ( 
       <div className='barraNav'>
           <nav className = "navegacionPrincipal contenedor">
-              <NavLink to="/"><img className="imgLogo" src={img} alt='logo'/></NavLink>
+              <NavLink to="/"><img className="imgLogo" src='https://i.ibb.co/9T7f0b0/icon-page.png' alt='logo'/></NavLink>
             <div className='nav'>
               <NavLink to="/">Inicio</NavLink> 
               <NavLink to="/juegos/offline">Juegos - Offline</NavLink>
